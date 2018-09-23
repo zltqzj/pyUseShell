@@ -23,3 +23,10 @@ exit 0
 <pre><code>
 hello world zhao jian
 </code></pre>
+
+
+## awk示例
+### 按照冒号分割，打印第1列和第7列。
+<pre><code>
+cat a.txt | awk  -F  ‘:’ ‘{print $1”\t”$7}’
+</code></pre>
