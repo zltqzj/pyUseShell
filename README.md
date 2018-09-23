@@ -46,3 +46,9 @@ awk  -F ':'  '{printf("filename:%10s,linenumber:%s,columns:%s,linecontent:%s\n",
 awk '{if($1>$2) print $1 "bad";else print "ok"}' b.txt
 </code></pre>
 
+
+
+### sed数据的搜寻并替换
+<pre><code>
+sed 's/要被取代的字串/新的字串/g'
+</code></pre>
